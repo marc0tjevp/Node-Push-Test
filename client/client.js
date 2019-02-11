@@ -10,7 +10,7 @@ async function send() {
 
     // Register Service Worker
     const register = await navigator.serviceWorker.register('/worker.js', {
-        scope: '/'
+        scope: '*'
     })
 
     // Register Push
