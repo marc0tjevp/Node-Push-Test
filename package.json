@@ -1,0 +1,25 @@
+{
+  "name": "Node-Push-Test",
+  "version": "1.0.0",
+  "description": "Push notifications + Service Workers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc0tjevp/Node-Push-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marc0tjevp/Node-Push-Test/issues"
+  },
+  "homepage": "https://github.com/marc0tjevp/Node-Push-Test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "web-push": "^3.3.3"
+  }
+}
